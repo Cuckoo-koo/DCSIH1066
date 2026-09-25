@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI } from "@google/genai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import { AIProcessRequest, AIProcessResponse, CulturalEntry } from "../types";
 
 const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || '';

@@ -57,7 +57,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreMap, onExplor
           {/* National Digital Repository Badge */}
           <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-heritage-100/90 border border-heritage-300 text-heritage-800 text-xs font-semibold mb-6 shadow-sm">
             <Award className="w-3.5 h-3.5 text-heritage-600" />
-            <span>India\'s National Community Oral Heritage Repository</span>
+            <span>India's National Community Oral Heritage Repository</span>
             <span className="w-1.5 h-1.5 rounded-full bg-heritage-500 animate-ping"></span>
           </div>
 

@@ -19,7 +19,7 @@ export const AIAssistantDrawer: React.FC = () => {
   const [messages, setMessages] = useState<Array<{ sender: 'user' | 'gemini'; text: string; time: string }>>([
     {
       sender: 'gemini',
-      text: 'Namaste! I am your Gemini Cultural Archivist. Ask me about India\'s living oral traditions, endangered dialects, sacred ritual performances, or folk epics preserved by village elders.',
+      text: "Namaste! I am your Gemini Cultural Archivist. Ask me about India's living oral traditions, endangered dialects, sacred ritual performances, or folk epics preserved by village elders.",
       time: 'Just now'
     }
   ]);
